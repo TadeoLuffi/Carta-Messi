@@ -70,6 +70,8 @@ header, footer{
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .card .info {
@@ -79,18 +81,26 @@ header, footer{
     padding: 10px;
 }
 
-
-.card .button {
+.botonera{
+    display: flex;
+    justify-content:center ;
+    padding: 16px;
+    
+}
+button {
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--color-secundario);
-    color: white;
+    background-color: #0083fd;
+    color: black;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 500ms ease-in-out;
+    border-radius: 15px;
+    border: #0083fd;
+    transition: background-color:all 500ms ease-in-out;
+    
 }
 
-.card .button:hover {
-    background-color: #45a049;
+button:hover {
+    background-color: #000000;
+    color: #0083fd;
 }
